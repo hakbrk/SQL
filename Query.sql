@@ -16,7 +16,8 @@ last name, first name, and start and end employment dates.*/
 SELECT d.dept_no, d.dept_name, dm.emp_no, e.last_name, e.first_name, dm.from_date, dm.to_date
 FROM departments d
 JOIN dept_manager dm ON d.dept_no = dm.dept_no
-JOIN employees e ON dm.emp_no = e.emp_no;
+JOIN employees e ON dm.emp_no = e.emp_no
+WHERE EXTRACT(YEAR FROM dm.to_date) = 9999;
 
 /*List the department of each employee with the following information: 
 employee number, last name, first name, and department name.*/
@@ -51,6 +52,15 @@ JOIN departments d ON de.dept_no = d.dept_no
 WHERE d.dept_name = 'Sales'
 OR d.dept_name = 'Development'
 AND EXTRACT(YEAR FROM de.to_date) = 9999;
+
+/*In descending order, list the frequency count of employee last names, 
+i.e., how many employees share each last name.*/
+SELECT last_name, COUNT(last_name)
+FROM employees
+GROUP BY last_name
+ORDER BY COUNT DESC
+
+
 
 
 
