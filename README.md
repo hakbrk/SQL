@@ -2,9 +2,11 @@
 SQL - Homework assignment #9
 
 File List
-Avg_Salary - Average Salary by title bar chart
-Create_Table_Code - Exported text file from quickdatabasediagrams.com, used to create table in                           Postgresql.
-ERD_Code - Text file that can be used to create the ERD using quickdatabasediagrams.com.
+- Avg_Salary - Average Salary by title bar chart
+
+- Create_Table_Code - Exported text file from quickdatabasediagrams.com, used to create table in Postgresql.
+
+- ERD_Code - Text file that can be used to create the ERD using quickdatabasediagrams.com.
 EDR_Diagram - Entity Relationship Diagram (ERD) showing the database structure of the Postgres                     database used for the homework assignemnt.
 Query - Text file with Postgresql code used to query the database.
         SQL_Homework_JLH.ipynb - Jupyter Notebook file used to import Postgresql database into Pandas           and generate the Avg_Salary bar chart.
