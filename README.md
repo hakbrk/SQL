@@ -7,9 +7,12 @@ File List
 - Create_Table_Code - Exported text file from quickdatabasediagrams.com, used to create table in Postgresql.
 
 - ERD_Code - Text file that can be used to create the ERD using quickdatabasediagrams.com.
-EDR_Diagram - Entity Relationship Diagram (ERD) showing the database structure of the Postgres                     database used for the homework assignemnt.
-Query - Text file with Postgresql code used to query the database.
-        SQL_Homework_JLH.ipynb - Jupyter Notebook file used to import Postgresql database into Pandas           and generate the Avg_Salary bar chart.
+
+- EDR_Diagram - Entity Relationship Diagram (ERD) showing the database structure of the Postgres database used for the homework                         assignemnt.
+
+- Query - Text file with Postgresql code used to query the database.
+
+- SQL_Homework_JLH.ipynb - Jupyter Notebook file used to import Postgresql database into Pandas and generate the Avg_Salary bar chart.
 
 Following are notes intended to clarify the methodology used during the query and bonus exercises.
 1.  List the following details of each employee: employee number, last name, first name, gender, and salary.
